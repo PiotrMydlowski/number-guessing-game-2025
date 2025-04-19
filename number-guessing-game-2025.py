@@ -98,26 +98,15 @@ def main_loop():
     next_round = True
     number = 0
     
-<<<<<<< HEAD
     while next_round:
         guesses = 1
-=======
-    
-    while next_round:
->>>>>>> 911f8f3f561381c5d8d5478e699edf60844b11b8
         range_min, range_max = ask_for_range()
         number = generate_random_number(range_min, range_max)
-        print(number)
         
         while (not guess_number(number)):
-<<<<<<< HEAD
             guesses += 1
         
         print('You needed ', guesses, ' guesse(s).')
-=======
-            pass
-        
->>>>>>> 911f8f3f561381c5d8d5478e699edf60844b11b8
         next_round = ask_to_play_again()
                 
 
