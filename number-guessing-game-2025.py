@@ -107,7 +107,7 @@ def main_loop():
         while (not guess_number(number)):
             guesses += 1
         
-        print('You needed ', guesses, ' guesses.')
+        print('You needed ', guesses, ' guesse(s).')
         next_round = ask_to_play_again()
                 
 
